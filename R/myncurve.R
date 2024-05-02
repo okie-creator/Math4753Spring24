@@ -7,7 +7,7 @@
 #' @return a list of the median, standard deviation and area
 #' @export
 #'
-#' @examples \dontrun{myquad(mu = 3, sigma = 5, a = 10)}
+#' @examples \dontrun{myncurve(mu = 3, sigma = 5, a = 10)}
 myncurve = function(mu, sigma, a){
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma), ylab= "Normal Density", xlab="Y")
   list(mu = mu, sigma = sigma)

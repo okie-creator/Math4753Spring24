@@ -48,3 +48,5 @@ The data that was required to be upload into the package for Lab 7.
 ```{r}
 library(MATH4753ESSA24)
 knitr::kable(head(fire))
+```
+

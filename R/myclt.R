@@ -7,7 +7,7 @@
 #'
 #' @return a histogram of the central tendency theorem
 #' @export
-#' @examples \dontrun{mycltb(n= 10, iter = 10000, a = 0, b = 5}
+#' @examples \dontrun{myclt(n= 10, iter = 10000, a = 0, b = 5}
 myclt=function(n = 100,iter = 1000,a=0,b=5){
   y=runif(n*iter,a,b)
   data=matrix(y,nr=n,nc=iter,byrow=TRUE)
