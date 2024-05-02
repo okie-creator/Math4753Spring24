@@ -1,0 +1,56 @@
+---
+title: "What the package does"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{what the package does}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753ESSA24)
+```
+
+# Introduction
+
+Here is the introduction of my package. I have the four functions from Lab4-8 for display per the requirements.  
+
+## myread
+The function from Lab4 which reads a csv into a variable. 
+```{r}
+seed <-MATH4753ESSA24::myread("SEEDLING.csv","C:/Users/coleh/OneDrive/Desktop/MATH4753/Lab/Lab4/")
+head(seed)
+```
+
+## myf
+The myf function from Lab 5 which shows binomial simulation. 
+```{r}
+MATH4753ESSA24::myf(iter = 10000, n= 10, p = 0.5)
+```
+
+
+## myncurve
+The myncurve function from Lab 6 which shows continuous normal distribution.
+```{r}
+MATH4753ESSA24::myncurve(10, 5, 6)
+```
+
+## myclt
+MyCLT was used in Lab 8 to show the Central Limit Theorem. 
+```{r}
+MATH4753ESSA24::myclt(n = 10, iter = 1000, a = 0, b = 5)
+```
+
+
+## Data
+The data that was required to be upload into the package for Lab 7.
+```{r}
+library(MATH4753ESSA24)
+knitr::kable(head(fire))
