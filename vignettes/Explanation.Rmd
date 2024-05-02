@@ -7,12 +7,6 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
 
 ```{r setup}
 library(MATH4753ESSA24)
@@ -37,14 +31,14 @@ MATH4753ESSA24::myf(iter = 10000, n= 10, p = 0.5)
 
 
 ## myncurve
-The myncurve function from Lab 6 which shows continuous normal distribution.
+The myncurve function from Lab 6 which shows continuous normal density
 ```{r}
 MATH4753ESSA24::myncurve(10, 5, 6)
 ```
 
 ## myclt
 MyCLT was used in Lab 8 to show the Central Limit Theorem. 
-```{r}
+```{r fid.width = 50}
 MATH4753ESSA24::myclt(n = 10, iter = 1000, a = 0, b = 5)
 ```
 

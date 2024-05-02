@@ -16,5 +16,5 @@ a numeric vector
 A quadratic function
 }
 \examples{
-myquad(x = 1:10)
+\dontrun{myquad(x = 1:10)}
 }

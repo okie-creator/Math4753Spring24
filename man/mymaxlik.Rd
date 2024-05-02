@@ -4,7 +4,7 @@
 \alias{mymaxlik}
 \title{mymaxlik}
 \usage{
-mymaxlik(lfun, x, param, ...)
+mymaxlik(lfun, x, param)
 }
 \arguments{
 \item{lfun}{function}
@@ -18,4 +18,7 @@ plot and a list of i, param, y, and slope
 }
 \description{
 mymaxlik
+}
+\examples{
+\dontrun{mymaxlik(lfun = "mean", x = 1:10, param = c(1,2))}
 }

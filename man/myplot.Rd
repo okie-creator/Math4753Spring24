@@ -7,8 +7,11 @@
 myplot(x)
 }
 \arguments{
-\item{x}{value for myplot}
+\item{x}{the independant variable for myplot}
 }
 \description{
 myplot
+}
+\examples{
+\dontrun{myplot(2)}
 }

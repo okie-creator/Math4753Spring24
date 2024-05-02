@@ -13,8 +13,11 @@ mymld(lfun, x, param, delta = 1e-04)
 
 \item{param}{parameter values}
 
-\item{delta}{accurancy}
+\item{delta}{accuracy}
 }
 \description{
 mymld
+}
+\examples{
+\dontrun{mymld(lfun = "mean", x = c(1,2,3), param = c(1,2), delta = 2)}
 }

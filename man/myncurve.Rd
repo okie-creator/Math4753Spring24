@@ -19,3 +19,6 @@ a list of the median, standard deviation and area
 \description{
 myncurve
 }
+\examples{
+\dontrun{myquad(mu = 3, sigma = 5, a = 10)}
+}
