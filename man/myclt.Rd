@@ -22,5 +22,5 @@ a histogram of the central tendency theorem
 myclt
 }
 \examples{
-\dontrun{mycltb(n= 10, iter = 10000, a = 0, b = 5}
+\dontrun{myclt(n= 10, iter = 10000, a = 0, b = 5}
 }
